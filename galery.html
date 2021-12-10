@@ -13,44 +13,104 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-    <title>Biodata</title>
+    <title>galery</title>
     <style>
         /* Make the image fully responsive */
         .carousel-inner img {
             width: 100%;
             height: 100%;
         }
-
-        .bg-light {
-            background-color: white !important;
+        .bg-light{
+    background-color: white !important;
+}
+.navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 750;
+}
+.fakeimg {
+    height: 150px;
+    
+  }
+  .fakeimg img{
+      max-width: 100%;
+  }
+  .jnee{
+      list-style: none;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+      padding-left: 0px;
+  }
+  .jneee a{
+      text-decoration: none;
+      color: red;
+  }
+  .jneee1 a{
+    text-decoration: none;
+    color: rgb(163, 158, 233);
+}
+  .fake1img {
+    height: 200px;
+  }
+  .fake2img {
+    height: 205px;
+  }
+  body{
+            background-image:url(https://unai.edu/wp-content/uploads/2019/04/unai-home-banner_home-with-a-beautiful-campus.jpg)
+        }		
+		
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+  
         }
 
-        .navbar-nav .nav-link {
-            font-size: 14px;
-            font-weight: 750;
-        }
-
-        .jnee {
-            list-style: none;
+        li a, .dropbtn {
+            display: inline-block;
+            text-align: left;
             text-decoration: none;
-            font-weight: 500;
-            font-size: 15px;
-            padding-left: 0px;
         }
 
-        .jneee a {
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(112, 96, 96);
+            min-width: 75px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        } 
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
             text-decoration: none;
-            color: red;
+            display: block;
+            text-align: left;
         }
 
-        .jneee1 a {
-            text-decoration: none;
-            color: rgb(163, 158, 233);
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
-
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
+        
+        .nav-link:hover{
+            color:blue;
+        }
+        .thumb{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            
+  
+            
+        }
+        .small{
+           color:aqua;
+           
         }
     </style>
 </head>
@@ -66,11 +126,10 @@
 
     <header>
 
-       
         <div class="wrapper afterclear">
             <nav class="navbar navbar-expand-md bg-light navbar-light">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><img
+                    <a class="navbar-brand" href="#"><img
                             src="https://www.jne.co.id/frontend/images/material/logo.jpg" alt=""
                             width="230px"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -85,7 +144,7 @@
                                         <a class="nav-link" href="karya sendiri.html">KARYA SENDIRI</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">PRODUK & LAYANANI</a>
+                                        <a class="nav-link" href="#">PRODUK&DAN LAYANAN</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="galery.html">GALERY</a>
@@ -94,7 +153,7 @@
                                         <a class="nav-link" href="contak_us.html">CONTACT US</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="biodata.html" style="color: red;">BIODATA</a>
+                                        <a class="nav-link" href="biodata.html">BIODATA</a>
                                     </li>
                                 </ul>
                                 <form class="form-inline">
@@ -111,40 +170,39 @@
         </div>
     </header>
     <!-- End Navbar -->
-    <div class="container">
-        <div class="row">
-        
-            <p style="font-size: 13px; font-weight: 400;">You Are Here : <a href="index.html" style="color: rgb(73, 67, 67); text-decoration: none; font-weight: 500;">Beranda</a> / <a href="biodata.html" style="color: rgb(73, 67, 67); text-decoration: none; font-weight: 500;">Biodata</a></p>
-           
-        <hr>
+
+    <div>
+        <div class="small">
+            <h2 style="text-align: center;" style="color:wheat;" style="background-color: blue;"> welcome to the gallery</h2>
         </div>
-    </div>
-
-    <div class="container ">
-        <h2>BIODATA</h2>
-        <div class="card" style="width:400px">
-          <img class="card-img-top" src="/12.jpeg" alt="WhatsApp Image 2021-10-14 at 19.41.13.jpeg" style="width:150px">
-          <div class="card-body">
-            <h4 class="card-title">daniel pasaribu</h4>
-            <p class="card-text">Perkenalkan Nama Saya <strong>daniel pasaribu</strong> <br> Biasa Di Panggil : dani <br>
-            Tanggal Lahir   : 15 oktober 2000 <br>
-            Asal            : sumatra(muara) <br>
-            Tempat Tinggal Sekarang : Kamar VIP Dining Crew <br>
-            Hobby : Main Game , olahraga,makan <br>
-            </p>
-            <a href="#" class="btn btn-primary">See Profile</a>
-          </div>
+        <div class=".container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="12.jpeg" data-image-id="#"  data-image="12.jpeg" data-target="12.jpeg">
+                        <img class="img-thumbnail"src="12.jpeg"alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="dani.jpeg" data-image-id="" data-toggle="modal"  data-image="dani.jpeg" data-target="dani.jpeg">
+                        <img class="img-thumbnail"src="dani.jpeg" alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="foto.jpeg" data-image-id="" data-toggle="modal" data-image="foto.jpeg"data-target="foto.jpeg">
+                        <img class="img-thumbnail" src="foto.jpeg" alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="poto.jpeg" data-image-id="" data-toggle="modal" data-image="poto.jpeg" data-target="#image-gallery">
+                        <img class="img-thumbnail" src="poto.jpeg" alt="Another alt text">
+                    </a>
+                </div>
+                
+                    </a>
+                </div>    
+            </div>
         </div>
-        <br>
-        
-        
-      </div>
-
-    <!-- Crausel -->
-
-    <!-- End Jumbotron -->
-    <!-- Image Start -->
-    <!-- Image End -->
+    </div>    
     <!-- footer start -->
     <div class="content">
         <footer id="myFooter" style="background-color: rgb(53, 46, 153);">
@@ -158,7 +216,7 @@
                       Jakarta Barat 11440
                       Indonesia</p>
                       
-                     <p style=" color: rgb(120, 113, 214);"> Contact center. (62 21) 2927 8888
+                     <p style=" color: rgb(163, 158, 233);"> Contact center. (62 21) 2927 8888
                       Office. (62-21) 566 5262
                       Fax. (62-21) 567 1413 
                       Email. customercare@jne.co.id
@@ -221,11 +279,11 @@
             </div>
         </footer>
 
-    <!-- footer end -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="assets/demo.js"></script>
-    <script src="https://cdn.tutorialzine.com/misc/enhance/v2.js" async></script>
+        <!-- footer end -->
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="assets/demo.js"></script>
+<script src="https://cdn.tutorialzine.com/misc/enhance/v2.js" async></script>
 </body>
 
 </html>
